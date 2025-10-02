@@ -1,0 +1,3009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="4.087" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Philp\Desktop\Reto API\RetoApi\target\test-classes;C:\Users\Philp\Desktop\Reto API\RetoApi\target\classes;C:\Users\Philp\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\Philp\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\Philp\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Philp\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Philp\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Philp\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Philp\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Philp\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\Philp\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\Philp\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Philp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Philp\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\Philp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Philp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Philp\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Philp\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\Philp\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\Philp\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\Philp\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Philp\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\Philp\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Philp\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Philp\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Philp\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Philp\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Philp\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\Philp\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\Philp\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\Philp\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\Philp\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\Philp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Philp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Philp\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Philp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Philp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Philp\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
+    <property name="sun.java.command" value="C:\Users\Philp\AppData\Local\Temp\surefire10079545987384411621\surefirebooter-20251002155514448_3.jar C:\Users\Philp\AppData\Local\Temp\surefire10079545987384411621 2025-10-02T15-55-14_292-jvmRun1 surefire-20251002155514448_1tmp surefire_0-20251002155514448_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Philp\Desktop\Reto API\RetoApi\target\test-classes;C:\Users\Philp\Desktop\Reto API\RetoApi\target\classes;C:\Users\Philp\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\Philp\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\Philp\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\Philp\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Philp\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Philp\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Philp\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Philp\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Philp\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\Philp\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\Philp\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\Philp\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\Philp\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Philp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Philp\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\Philp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\Philp\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\Philp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\Philp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\Philp\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Philp\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\Philp\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\Philp\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\Philp\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Philp\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\Philp\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Philp\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Philp\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Philp\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Philp\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Philp\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\Philp\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\Philp\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\Philp\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\Philp\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\Philp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Philp\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Philp\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Philp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Philp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Philp\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Philp"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Philp\Desktop\Reto API\RetoApi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Philp\AppData\Local\Temp\surefire10079545987384411621\surefirebooter-20251002155514448_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
+    <property name="user.name" value="Philp"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Philp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Philp\AppData\Local\Temp\"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="C:\Users\Philp\Desktop\Reto API\RetoApi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Users\Philp\AppData\Local\Microsoft\WindowsApps;C:\Users\Philp\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.11\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18+36-2087"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="4.062">
+    <failure message="status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1, response: &#10;{&#10;    &quot;message&quot;: &quot;Este email já está sendo usado&quot;&#10;}&#10;classpath:examples/users/ActualizarInformacion.feature:11&#10;match failed: EQUALS&#10;  $ | actual path does not exist (STRING:STRING)&#10;  &apos;#notpresent&apos;&#10;  &apos;0uxuPY0cbmQhpEz1&apos;&#10;&#10;classpath:examples/users/BuscarUsuarioID.feature:12&#10;status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios, response: &#10;{&#10;    &quot;message&quot;: &quot;Este email já está sendo usado&quot;&#10;}&#10;classpath:examples/users/RegistrarUsuario.feature:12 ==&gt; expected: &lt;0&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/ActualizarInformacion.feature:11
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '0uxuPY0cbmQhpEz1'
+
+classpath:examples/users/BuscarUsuarioID.feature:12
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/RegistrarUsuario.feature:12 ==> expected: <0> but was: <3>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[15:55:16.086 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:55:16.095 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+15:55:17.169 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:55:17.169 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+15:55:17.169 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+15:55:17.169 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:55:17.169 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+15:55:17.467 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?_id=0uxuPY0cbmQhpEz1
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:17.467 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios?administrador=true
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:17.467 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/18)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:17.467 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/18)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Fulano da Silva","email":"pepw@qa.com.br","password":"teste","administrador":"true"}
+
+15:55:17.467 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/18)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Fulano da Silva","email":"beltraraaaam@qa.com.br","password":"teste","administrador":"true"}
+
+15:55:18.106 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 636
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: f383e547fc2f9badfcf8feae6be2dc21;o=1
+1 < date: Thu, 02 Oct 2025 20:55:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 43
+{
+    "quantidade": 0,
+    "usuarios": []
+}
+
+15:55:18.121 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 0b82e028e6c5bf7482b9c6545c1564fe
+1 < date: Thu, 02 Oct 2025 20:55:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 46
+{
+    "message": "Nenhum registro excluído"
+}
+
+15:55:18.126 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: cb3160a640da30e7c27f1d8e967647cd
+1 < date: Thu, 02 Oct 2025 20:55:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+15:55:18.126 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 400
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 6239760d6903fad6fa70f23e7067583a
+1 < date: Thu, 02 Oct 2025 20:55:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 53
+{
+    "message": "Este email já está sendo usado"
+}
+
+15:55:18.129 [pool-2-thread-2] ERROR com.intuit.karate - classpath:examples/users/BuscarUsuarioID.feature:12
+And match response.usuarios.[0]._id == '0uxuPY0cbmQhpEz1'
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '0uxuPY0cbmQhpEz1'
+
+classpath:examples/users/BuscarUsuarioID.feature:12
+15:55:18.133 [pool-2-thread-5] ERROR com.intuit.karate - classpath:examples/users/RegistrarUsuario.feature:12
+Then status 201
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/RegistrarUsuario.feature:12
+15:55:18.133 [pool-2-thread-1] ERROR com.intuit.karate - classpath:examples/users/ActualizarInformacion.feature:11
+Then status 201
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/ActualizarInformacion.feature:11
+15:55:18.277 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 810
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 86dbee91e8e3811e190576a3b600cb6e
+1 < date: Thu, 02 Oct 2025 20:55:18 GMT
+1 < server: Google Frontend
+1 < Content-Length: 86688
+{
+    "quantidade": 385,
+    "usuarios": [
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9418@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "0CZVfikrLcF8AnPN"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "papo@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "1ZCxcnwGvNjDqyja"
+        },
+        {
+            "nome": "teste da Silva",
+            "email": "teste@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "2C4R7femYC5MH7R8"
+        },
+        {
+            "nome": "Esteban47",
+            "email": "Calista.Daniel@gmail.com",
+            "password": "211138740",
+            "administrador": "true",
+            "_id": "4EtR14wbTLHzemMt"
+        },
+        {
+            "nome": "Nome Atualizado",
+            "email": "teste0550@teste.com",
+            "password": "54321",
+            "administrador": "true",
+            "_id": "4KKLWiXykQV374xA"
+        },
+        {
+            "nome": "Test User",
+            "email": "test_user_1234@example.com",
+            "password": "Pass123",
+            "administrador": "true",
+            "_id": "4Qu48E9ENyfNwcVK"
+        },
+        {
+            "nome": "User_828467",
+            "email": "user_828467@example.com",
+            "password": "Pass_828467",
+            "administrador": "true",
+            "_id": "4WBMOBOQIiv2BXRs"
+        },
+        {
+            "nome": "Kai the frenchie",
+            "email": "kai@qa.cl",
+            "password": "kai",
+            "administrador": "true",
+            "_id": "4Z7f0fMLJzguDYkT"
+        },
+        {
+            "nome": "Levi Fernandes",
+            "email": "robot.test.20251002150259@gmail.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "4ml8IpqoJUpWTrqy"
+        },
+        {
+            "nome": "Usuario Teste 1759419727",
+            "email": "teste1759419727@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "4nyV3UaUhFLGbsdN"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6144@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "4vA3tTOFfa5Q0b6o"
+        },
+        {
+            "nome": "User_247862",
+            "email": "user_247862@example.com",
+            "password": "Pass_247862",
+            "administrador": "true",
+            "_id": "58zuQPHXyjwI12dD"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9938@teste.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "5LH99u4tvt6Jhcol"
+        },
+        {
+            "nome": "Srta. Eloá da Conceição",
+            "email": "eloahvargas@example.net",
+            "password": "12345678901",
+            "administrador": "true",
+            "_id": "5QXXsuRHhPz6yemJ"
+        },
+        {
+            "nome": "RobotUser_1759418395_3970",
+            "email": "RobotUser_1759418395_3970@example.com",
+            "password": "Pass_3970",
+            "administrador": "true",
+            "_id": "63Q4neaRE2UnFxLK"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436500395@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "6mNoFgvyEboUOzq6"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5794@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "6ulyfKOv0PuPtjpD"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436685995@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "70iOL4HbUHd80GcC"
+        },
+        {
+            "nome": "kauaqa",
+            "email": "kaua123@gmail.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "72WG2jaQ5t7c4xaS"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "dwin@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "74zQjSX4YA5A7vf1"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+7@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "76G5vvFV53QFuKKe"
+        },
+        {
+            "nome": "Cypress Admin 1759407548202",
+            "email": "cypress_admin_1759407548202@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "79B64nDkg2HgiXVd"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "usuario@teste.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7AqzgXWS9npz2LPJ"
+        },
+        {
+            "nome": "Cypress User 1759407537042",
+            "email": "Cypress_1759407537042@Cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7Bjw56rPEYsIhb1f"
+        },
+        {
+            "nome": "Benício Siqueira",
+            "email": "lpastor@example.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "7BydRTdYTMtjWsuD"
+        },
+        {
+            "nome": "Cypress Admin 1759407529638",
+            "email": "cypress_admin_1759407529638@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7I9ycLMmiGhuLYdQ"
+        },
+        {
+            "nome": "Usuário Login",
+            "email": "usuario.login@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7XQozEm8d2awuiDf"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+6@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "8ABEGHfnP3uM9QaI"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "qmrm@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "8CpyP0acPrgn8Ptf"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0419@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "8MlVUfTfemT3j64p"
+        },
+        {
+            "nome": "QualityAssuranceUser",
+            "email": "QualityAssuranceAdmin@cypress.com",
+            "password": "Admin123@",
+            "administrador": "true",
+            "_id": "8pnlqEZq9IJol8xl"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioabra@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "90PRvdSr2E4wMMP5"
+        },
+        {
+            "nome": "Tarcisio Kloppel F",
+            "email": "tkloppel@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "9BoFVdhYMgd4y3OY"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "muitolongoemail123456789012345678901234567890@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "9MlaoqBpUVarfBf3"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6118@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "9NlskqTvv4ZjhqgU"
+        },
+        {
+            "nome": "Usuario 3p8zb",
+            "email": "usuario3p8zb@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9PTtv54YfofGB7t3"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "hDGuSU@email.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "9PuTnARa2YrX2q1v"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+13@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "9lJ8KSTV1R1y96fz"
+        },
+        {
+            "nome": "Cypress Admin 1759407554596",
+            "email": "cypress_admin_1759407554596@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9pwKqKNSbM7gURLu"
+        },
+        {
+            "nome": "User_635033",
+            "email": "user_635033@example.com",
+            "password": "Pass_635033",
+            "administrador": "true",
+            "_id": "A5Hr3FdUP8ojUKDa"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepq@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "AHpKGixscb8biNbb"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste2609@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Av3IEL89tltPOyiy"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste7108@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Av5dfEx3wey5JFuL"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepe@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "BJCBXW2XfU4Ldf1w"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4297@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "BMsD8aAtmQxTntaq"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "rzmu@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "BZM7dNmnEG8NFOcz"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5895@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "BZpWAxlhy7h15S67"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "CnFids@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "BdlPLyczvT3qnkcE"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "rtmi@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "BsalscTIlIKpbw7T"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4134@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Bu5GWTXJH4KnbLZd"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6646@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "BxiSbqEqfFqD4z9S"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4603@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "CApOG72U6bjALWRN"
+        },
+        {
+            "nome": "Usuário Duplicado",
+            "email": "usuario.duplicado@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CLIVni2vfdC7MdlA"
+        },
+        {
+            "nome": "Mrs. Monique Ruecker",
+            "email": "kennedi9@cypress.com",
+            "password": "VDZZMgxn4YGx",
+            "administrador": "true",
+            "_id": "CWh5eG5681MKR9fI"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "crax@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "CWnzLCndjbOoUzsF"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "CKtcma@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "CZGXCk6nZ9pz70sD"
+        },
+        {
+            "nome": "Usuario h31b4",
+            "email": "usuarioh31b4@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CZw4ohDHpwWOJMmR"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435647304@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CmLRQqNAvjZrpyYF"
+        },
+        {
+            "nome": "User_246621",
+            "email": "user_246621@example.com",
+            "password": "Pass_246621",
+            "administrador": "true",
+            "_id": "CunrV7UdN4mZL4j7"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5464@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "D71eSoIfIMAte8az"
+        },
+        {
+            "nome": "Usuario Teste 1759414596",
+            "email": "teste1759414596@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "D8Ry7e88DTj94BsB"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste1101@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "DANnGnChYawPL8QQ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltranoere@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DFhBVt3pg4YUHkXl"
+        },
+        {
+            "nome": "Andrea Kling",
+            "email": "skye.greenfelder97@cypress.com",
+            "password": "Wg3utIjcWUxf",
+            "administrador": "true",
+            "_id": "DJWOtA0cX5D444NY"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrane@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DRQlbAHluu5ZhJ9R"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "BzJoym@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "DSnapImPuAhSU21z"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759432986003@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "DUu2P00iM835OYik"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+12@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "DVncZcpP7Zy2EKnx"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioab@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DZ3LTPgWzyBBC2Lq"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+1@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "DcBdCmIL60bDvacV"
+        },
+        {
+            "nome": "Teste API",
+            "email": "user3@test.com",
+            "password": "Password123!",
+            "administrador": "true",
+            "_id": "DzVliZ7XqBb9ck3s"
+        },
+        {
+            "nome": "Melody Larson",
+            "email": "jayce79@cypress.com",
+            "password": "TOa5E91Qus2H",
+            "administrador": "true",
+            "_id": "E9wzDH2bITosKAEZ"
+        },
+        {
+            "nome": "uQXUDSGinVqfbDSoapMdNRbfGSehpnZhxdKSlLNzCMEyKVQRyYhSMMwLMPhmKotdKNyEHCYIVoqYgfpKFCcKFutEDCVZuDnuFaUn",
+            "email": "teste5753@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "EE579ywkACi9yJpk"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4488@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "EIgWMA8y8mtRUyOZ"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+11@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "EaNeZxkOI6nvn4l2"
+        },
+        {
+            "nome": "Teste Curso",
+            "email": "testandocurso@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EapI8Iyo1fwg4D7H"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "gkfq@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "EmbFJzaPuIkS5TJD"
+        },
+        {
+            "nome": "Cedrick_Reichel15",
+            "email": "Kailyn.Connelly69@gmail.com",
+            "password": "710636962",
+            "administrador": "true",
+            "_id": "EqXmLVDyC9jxGPwY"
+        },
+        {
+            "nome": "john doe 1759403506116",
+            "email": "cypress.user+1759403506116@example.com",
+            "password": "test",
+            "administrador": "true",
+            "_id": "FCZ0yfXAhVZt184s"
+        },
+        {
+            "nome": "Usuario dablz",
+            "email": "usuariodablz@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FJgLjwwVTG6m4prc"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+14@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "FQ6TibDOnqIOIKQ4"
+        },
+        {
+            "nome": "Hiram",
+            "email": "wilber.hoppe@gmail.com",
+            "password": "8ewnkvpjux5u3",
+            "administrador": "true",
+            "_id": "FfIlMQsaLgvH84zk"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste7854@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "FgAl0IGTh57T6b7O"
+        },
+        {
+            "nome": "Usuario Teste 1759416916",
+            "email": "teste1759416916@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "FtkSMz4UbZKcjFjh"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+5@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "G12wM1kfc2SpXzpZ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste7283@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "G7LHF3gtwNUvwq5v"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435552782@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GMgbMd84CDW2U1dO"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "hzODLo@email.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "GpzgTuhbFAYd8A0d"
+        },
+        {
+            "nome": "john doe1",
+            "email": "dumb.jof@qa.com.br",
+            "password": "test",
+            "administrador": "true",
+            "_id": "GxeN78HMlnDHKbPr"
+        },
+        {
+            "nome": "Mireille.Langworth19",
+            "email": "Magnus_Rempel@yahoo.com",
+            "password": "761784649",
+            "administrador": "true",
+            "_id": "HNEEhZNR9OAkqcQh"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6155@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "HVE6UyoNpfOnlinM"
+        },
+        {
+            "nome": "Cypress Admin 1759407550918",
+            "email": "cypress_admin_1759407550918@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "HbVkqHtqmImjB3HT"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759432892202@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "HcgNEkxn5b60257k"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759434522863@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Hiw5hNJlztiIvIOS"
+        },
+        {
+            "nome": "Fulano ALTERADO fr7j",
+            "email": "usuariobj6i2@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Ho9xm3GCLSszTq5j"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+25@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "Hp7tFRURVkNPSMFL"
+        },
+        {
+            "nome": "RobotUser_1759418529_7920",
+            "email": "RobotUser_1759418529_7920@example.com",
+            "password": "Pass_7920",
+            "administrador": "true",
+            "_id": "Hr3CeXmXBgCIuCdC"
+        },
+        {
+            "nome": "Chris",
+            "email": "Chrisqa@qa.cl",
+            "password": "123",
+            "administrador": "true",
+            "_id": "Hs1LCUl6O5yog3tW"
+        },
+        {
+            "nome": "Usuario uc7gk",
+            "email": "usuariouc7gk@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IIdSl7HAPuymidcy"
+        },
+        {
+            "nome": "Get User",
+            "email": "user2@test.com",
+            "password": "Password123!",
+            "administrador": "true",
+            "_id": "IK2WXV0CL7q4ceMp"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9840@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "IN4BWQEhN759K3ey"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "bqah@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "IlqMN20bYKGyNzTr"
+        },
+        {
+            "nome": "Spencer Herzog",
+            "email": "rosamond3@cypress.com",
+            "password": "S1_MGrAR08yP",
+            "administrador": "true",
+            "_id": "J6xar3ZhlLeltuoF"
+        },
+        {
+            "nome": "dhaMfalqeVDtbeOCTeTFHwYapFdTcwtCoxaVAoDslNKcKDhuvwZiJnghdGepaIKLUtHCexxrBOxtmENYgbjrRLbOFHkZKSteTEjPUpDpuPHGfqCoeNqoAJXEjslbbjfQekGRDCinyEhJqlgOGDASQYwWMUZpNtuPMFPcUXSdUxUjbxePmvxiNOxQiHuBKGccriWeLBiqDgZlZxopfXqhbziTDPuqSHTinBxlJJOlcHiBlXuzkzJJVvAiOUCiGzVveAhbSWKXOfoGgaFVMSjsZHFNhvaPqVthOafdXOaHaHSp",
+            "email": "oSplHF@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JJWEChB6Lt74WtjW"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltraraaam@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JLdRKH9IloSLVWmu"
+        },
+        {
+            "nome": "Eu QA Fulano de Tall",
+            "email": "eu-fulanodetall-qa@eu-qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JNBfLq2FWc8OCe80"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9149@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "JSxkle2wMID1TU6J"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario2335@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "JdmE6YJvaURm02Ln"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9885@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "JoakbCwME5eVwyHF"
+        },
+        {
+            "nome": "Harold Schulist",
+            "email": "shad15@cypress.com",
+            "password": "OFtBpa_7Y3GX",
+            "administrador": "true",
+            "_id": "KIO8B6TPeXazkFPj"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435692200@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KJ5NQ5mf07Xybefz"
+        },
+        {
+            "nome": "Vitor Carrasco",
+            "email": "vitorfcarrasco@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KKNFpVkF5BLwfv8H"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+24@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "KNqycfyKXGLWL4kC"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fsfw@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "KVyEDAi1jGOOZBrp"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepw@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "KXq57o8xhM0SlPV7"
+        },
+        {
+            "nome": "Noel Corwin",
+            "email": "aiden88@cypress.com",
+            "password": "s7GPSTN_7FRJ",
+            "administrador": "true",
+            "_id": "KZ4TNIh7E1Qte99K"
+        },
+        {
+            "nome": "Hora do QA",
+            "email": "teste@serverest.com",
+            "password": "1q2w3e4r",
+            "administrador": "true",
+            "_id": "KvCPmi4goqDiqCl7"
+        },
+        {
+            "nome": "RobotUser_1759418747_1740",
+            "email": "RobotUser_1759418747_1740@example.com",
+            "password": "Pass_1740",
+            "administrador": "true",
+            "_id": "L4no0zlpIdfj05hq"
+        },
+        {
+            "nome": "RobotUser_1759418746_1500",
+            "email": "RobotUser_1759418746_1500@example.com",
+            "password": "Pass_1500",
+            "administrador": "true",
+            "_id": "LRIpZoT1a1kBLG4w"
+        },
+        {
+            "nome": "QA Teste Um",
+            "email": "teste1@qa.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "LTOXatQOa7tXxRja"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435388475@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LYiuN0elWwc2CZz4"
+        },
+        {
+            "nome": "vewJPsYJGgLIUlReDutumdJVfBEQEjigoqvMftPmJnvwSVFQwASiNmbCbPBmtsAbZPtVgAYbAPrNrdbLtpkVloWhJQkTRtwujeudjhbebvGggnytqCKPNpVYbpqupiUxNrIhyvWDCrdfMVljiXMALJNwhSEBEagMVjEAKiiECnnYPIlYtXIGhMqYJquASSJRnQDTkDgyifQQSDtpwROHpaKCoaTVRCPTFNywRaLnXYIWuskZZECTKNnMkvVmoYBuuQCwfmSuMivDCureSXVSWfYLKHTfsADgtABWEVxhYanM",
+            "email": "hEhgWu@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Lb68pvdXEa7WfmPb"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9274@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "LkQ5jK4X2XpzO38G"
+        },
+        {
+            "nome": "RobotUser_1759418529_5423",
+            "email": "RobotUser_1759418529_5423@example.com",
+            "password": "Pass_5423",
+            "administrador": "true",
+            "_id": "M9DTyHURLKYW0TUF"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste2591@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "MaJr1f0vQb0Eu8uJ"
+        },
+        {
+            "nome": "Daniel Carvalho",
+            "email": "imonteiro@example.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "MwFFEMYSYPcpuceH"
+        },
+        {
+            "nome": "Karate Oss",
+            "email": "karateoss@qa.com.br",
+            "password": "123456789",
+            "administrador": "true",
+            "_id": "NGYAbiOOeKvvfNWW"
+        },
+        {
+            "nome": "Ena",
+            "email": "Mikayla_Schinner97@yahoo.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "NIL4CrYwqGzeMGzf"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+9@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "NJPw8aC78ienFAol"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436877455@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "NpQ2gBKyD3SMoOOA"
+        },
+        {
+            "nome": "Sean Dach",
+            "email": "rogers_sipes@cypress.com",
+            "password": "uli7BZAfhTBO",
+            "administrador": "true",
+            "_id": "Nqg5DENHjXwnI8v4"
+        },
+        {
+            "nome": "User_834802",
+            "email": "user_834802@example.com",
+            "password": "Pass_834802",
+            "administrador": "true",
+            "_id": "NwvqWKtGxlaTjT82"
+        },
+        {
+            "nome": "Test User",
+            "email": "test1111111111@example.com",
+            "password": "Pass1111",
+            "administrador": "true",
+            "_id": "O13Ao7W4kG49CAlq"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioabravanel@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "OExcS6kyLYvb4EHU"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+21@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "OJ69IoiGdYQ8nzTI"
+        },
+        {
+            "nome": "TestewQnqvJojXA",
+            "email": "yEWFbZuN@testes.com",
+            "password": "Test1@54618",
+            "administrador": "true",
+            "_id": "OK7bWGynjfJYNsYi"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario6121@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "OQpBaNGR7SIRz1Pv"
+        },
+        {
+            "nome": "Olivia Prohaska",
+            "email": "adele98@cypress.com",
+            "password": "CXhzpNpEFsPO",
+            "administrador": "true",
+            "_id": "ORSUlemJtBd0V9mt"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "QWZvjD@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OVQyDMe50NyPRmY9"
+        },
+        {
+            "nome": "User_284091",
+            "email": "user_284091@example.com",
+            "password": "Pass_284091",
+            "administrador": "true",
+            "_id": "OewEQfHfcLQ2yWfj"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435954794@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Ohonziwhw9fprkxc"
+        },
+        {
+            "nome": "Lorenzo Cassiano",
+            "email": "oliverpereira@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "OkODzBFvkaWwzpLJ"
+        },
+        {
+            "nome": "Caterina_Morissette",
+            "email": "Sigmund_Gibson@hotmail.com",
+            "password": "261783038",
+            "administrador": "true",
+            "_id": "OlgEhkdtIP3vCh82"
+        },
+        {
+            "nome": "Luis Ruecker",
+            "email": "malvina64@cypress.com",
+            "password": "uluxA97CpZ0f",
+            "administrador": "true",
+            "_id": "OplPdKyENVQlB2nN"
+        },
+        {
+            "nome": "Brady",
+            "email": "odis.kshlerin@gmail.com",
+            "password": "7t9syjnt",
+            "administrador": "true",
+            "_id": "OqHBkzaThvYbYj48"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrsano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Or6X2d0Wh3ZrP0PQ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4393@teste.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "OvISeAZygMcELFfC"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste8818@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "P5rxCaWJFLQmNBmu"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6505@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "P9fIxUK2FqEENiRZ"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario8169@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "PAWobKGvFkjCx9Ys"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759436284196@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "POnnDNRBJnONAX89"
+        },
+        {
+            "nome": "Usuario Teste 1759414917",
+            "email": "teste1759414917@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "PXoOQ1yeRLJD6NJu"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+10@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "PYLbR96cSC6zsWor"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "eskt@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "PqQ5noSmvQCxP0kY"
+        },
+        {
+            "nome": "Bill Watsica",
+            "email": "billwatsica@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "Q1eCpfJVHA8rebKm"
+        },
+        {
+            "nome": "Usuario 0zx8i",
+            "email": "usuario0zx8i@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Q3YKthrVVIBlBoGk"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "ceic@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "QMAx0INmzet20bo0"
+        },
+        {
+            "nome": "RobotUser_1759418395_4681",
+            "email": "RobotUser_1759418395_4681@example.com",
+            "password": "Pass_4681",
+            "administrador": "true",
+            "_id": "QRmhV0YQ3hzJ1zA0"
+        },
+        {
+            "nome": "lindinha",
+            "email": "docinho@mail.com",
+            "password": "12456",
+            "administrador": "true",
+            "_id": "QTakF6yo3r7A2Vel"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759434026692@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Qgl7G3lUcLVKaTpf"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435452086@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "QmmaMHKK0WBonr52"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "TRqGhS@email.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "QnUFMSChILtwO4sw"
+        },
+        {
+            "nome": "Janis Koelpin",
+            "email": "rudybrown@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "R3oFbnzQeJXPO1Ij"
+        },
+        {
+            "nome": "RobotUser_1759418471_8586",
+            "email": "RobotUser_1759418471_8586@example.com",
+            "password": "Pass_8586",
+            "administrador": "true",
+            "_id": "REf0PHDkePE64KOy"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepwwewwe@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "RQKZxJgXCPCWZ2wL"
+        },
+        {
+            "nome": "Fulano ALTERADO 68x2",
+            "email": "usuario0f9jc@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Rb5gRjvZ6pVdPOgm"
+        },
+        {
+            "nome": "Judge_Moore82",
+            "email": "Savannah20@gmail.com",
+            "password": "637579553",
+            "administrador": "true",
+            "_id": "RevFVCLdvYdUNpMS"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9935@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "RfX14sVqJp3k7dIs"
+        },
+        {
+            "nome": "Tiago Gonçalves",
+            "email": "tiago@tiremoto.com.br",
+            "password": "Seguro@2020",
+            "administrador": "true",
+            "_id": "RndkHhIwEXU3wauE"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759433016492@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "RrIvHrBcY6SQoWEx"
+        },
+        {
+            "nome": "Cypress Admin 1759407557093",
+            "email": "cypress_admin_1759407557093@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "S3CweIXGPUBPdJyg"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "SEUJn1Ex0NOoiMbj"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6511@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "SQgzIGkgitTvqVAg"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435515433@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "SQhehRHl1mSYeW6j"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepi@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "SUrMnv3esLY4uWgM"
+        },
+        {
+            "nome": "Marcelo Novais",
+            "email": "joanaazevedo@example.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "SWeAWXVwuNV6YfIN"
+        },
+        {
+            "nome": "User_241165",
+            "email": "user_241165@example.com",
+            "password": "Pass_241165",
+            "administrador": "true",
+            "_id": "SpokosFym4Mi1qWb"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste2606@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "SzJiepKwl1EVzZQc"
+        },
+        {
+            "nome": "Get User",
+            "email": "user56205@test.com",
+            "password": "Password123!",
+            "administrador": "true",
+            "_id": "T7zVrCq1NtQd4zxX"
+        },
+        {
+            "nome": "Usuario 4vc2y",
+            "email": "usuario4vc2y@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TFBj2IFwWtFHPqNY"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435664545@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TH92i3x3Xr4rMZWe"
+        },
+        {
+            "nome": "RobotUser_1759418470_2337",
+            "email": "RobotUser_1759418470_2337@example.com",
+            "password": "Pass_2337",
+            "administrador": "true",
+            "_id": "Tb1XNr6nfveMfBbk"
+        },
+        {
+            "nome": "RobotTestUser_1759418489_1263",
+            "email": "test_1759418489@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "U2qJ5rqAoz3r8zi6"
+        },
+        {
+            "nome": "Felipa92",
+            "email": "River86@hotmail.com",
+            "password": "071259280",
+            "administrador": "true",
+            "_id": "U3Axvcr4puxR17f9"
+        },
+        {
+            "nome": "Dr. Heidi Trantow",
+            "email": "dr.heiditrantow@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "UNc3uiHyCu5NI4Ab"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "fvot@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "UOSHxHOI80NC22CM"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste8556@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Ue0nuGZb09CFkabz"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5584@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Ug7d88kt8ZhpUxRB"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "hzIEZO@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UiCqXtgka7UCaUk9"
+        },
+        {
+            "nome": "Norberto_Weber62",
+            "email": "Sonia.Willms58@yahoo.com",
+            "password": "765168683",
+            "administrador": "true",
+            "_id": "UmMksBjFe2yjRYga"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste2691@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "V6rwxCqeiSV6aPDf"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0766@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "V7VrpydnNtuUst5T"
+        },
+        {
+            "nome": "Willie Huels",
+            "email": "keyshawn.orn@cypress.com",
+            "password": "0jKbZ2Jm_WHH",
+            "administrador": "true",
+            "_id": "VA9aS8Cq1YWVfH6I"
+        },
+        {
+            "nome": "Usuario Um - Atualizado",
+            "email": "user10@example.com",
+            "password": "novaSenha123",
+            "administrador": "true",
+            "_id": "VMjolsU2vOqbthNA"
+        },
+        {
+            "nome": "Micheal",
+            "email": "rudolph.vonrueden@hotmail.com",
+            "password": "vti5z8he",
+            "administrador": "true",
+            "_id": "VTFsBhun0NUYFgtr"
+        },
+        {
+            "nome": "User_968347",
+            "email": "user_968347@example.com",
+            "password": "Pass_968347",
+            "administrador": "true",
+            "_id": "VUpK1nV5v8t6TclI"
+        },
+        {
+            "nome": "Nome Atualizado",
+            "email": "teste3263@teste.com",
+            "password": "54321",
+            "administrador": "true",
+            "_id": "VkylPAlsvTt2mhdz"
+        },
+        {
+            "nome": "Cypress Admin 1759407529991",
+            "email": "cypress_admin_1759407529991@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Vu1lcTep53HFIpa0"
+        },
+        {
+            "nome": "Fulano ALTERADO h3db",
+            "email": "usuariolqiho@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "WB7srqehBPQJiYiL"
+        },
+        {
+            "nome": "John Doe",
+            "email": "john@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "WN3BULIbhfGC2KIv"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "vtxy@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "WdNuZD6he9iwpuAA"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+22@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "WkOC9ofQKK48KQVA"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioabr@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "WrakfnpHQHuCIMRk"
+        },
+        {
+            "nome": "Primeiro Usuário",
+            "email": "teste8709@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "Ws0KQV0AueV5Posk"
+        },
+        {
+            "nome": "User_765217",
+            "email": "user_765217@example.com",
+            "password": "Pass_765217",
+            "administrador": "true",
+            "_id": "X1ZW9hMtP8ya3was"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9242@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "XHBKcOzOfaLS9cA5"
+        },
+        {
+            "nome": "RobotUser_1759418470_6984",
+            "email": "RobotUser_1759418470_6984@example.com",
+            "password": "Pass_6984",
+            "administrador": "true",
+            "_id": "XNjb6q2DZn2b5qQj"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759436336345@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "XUU20ABbWBG1rLOE"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+23@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "XcsuvPEsFOUiShsp"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste1849@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "XgDZl0lJXi9u5QAz"
+        },
+        {
+            "nome": "tmsusGUWwOeeujFQNFPXUZZYaKVLZhPgpIkLUqasflXBsNDowpfTxvvxUOlFIIwxLmPFioDOlyDIwmfHZAarCPMlsaWjwwFcskjPGfQjNpCiaavNArdERmrIjIpULBBnBAzkwMXZdKHCcbbFVgUoeEhuNZgOmBDhdNUrKCYCSsBRCkYjFzHagVTPvyavDPDcSqDtQrEDCVwxSsKRrInSGTgAXKYiUADvlKNJEhtTWDEFaUJuCLxTubnMzwvveHYePpNaNHZHuSUKXcsOGqWSjxFhToOPXwJPIJJTrKBzToFe",
+            "email": "eBjbdn@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "XvzIaKsSbYfR8mpQ"
+        },
+        {
+            "nome": "Corbin.Daniel70",
+            "email": "Kade_Bashirian9@gmail.com",
+            "password": "444935486",
+            "administrador": "true",
+            "_id": "YRlUW9TET1mI8t9a"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+3@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "YS3dKHlpAw8UsHm7"
+        },
+        {
+            "nome": "Kaique Teste",
+            "email": "kaique.teste1759432851932@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YUF2XW3m2tH834X2"
+        },
+        {
+            "nome": "RobotUser_1759418396_7312",
+            "email": "RobotUser_1759418396_7312@example.com",
+            "password": "Pass_7312",
+            "administrador": "true",
+            "_id": "YWKBREi44hw9L2mB"
+        },
+        {
+            "nome": "Bryant Huel",
+            "email": "bryanthuel@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "YjN82WPr8XGk6L3M"
+        },
+        {
+            "nome": "Fulanoe d Silva",
+            "email": "beltranoeasre@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Yo79z4jyv9rOXFpk"
+        },
+        {
+            "nome": "Guadalupe Maggio",
+            "email": "blanche76@cypress.com",
+            "password": "SbFmMKAXfXM_",
+            "administrador": "true",
+            "_id": "YrrGZu1NSyj6Qci5"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "gici@emailteste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "Z81rY8lp9AMbEZB7"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "IxXzgH@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z8VXUdzFaplymZtQ"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "hxht@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "ZOS6ATaZ0vadsWIj"
+        },
+        {
+            "nome": "RobotUser_1759418710_6857",
+            "email": "RobotUser_1759418710_6857@example.com",
+            "password": "Pass_6857",
+            "administrador": "true",
+            "_id": "ZeNryxBFQvBUBKn1"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "kmlq@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "Zh6yeJ0G2JKJUf0k"
+        },
+        {
+            "nome": "Admin Usuário",
+            "email": "admin_user@example.com",
+            "password": "adminSenha123",
+            "administrador": "true",
+            "_id": "Zjf3ipqQGbUBLjx0"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3275@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "ZyVspFWxw4VI7cty"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste7181@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "aEfCug47i1CnwjnE"
+        },
+        {
+            "nome": "User_684498",
+            "email": "user_684498@example.com",
+            "password": "Pass_684498",
+            "administrador": "true",
+            "_id": "aOBIP8hDbCSBDXYw"
+        },
+        {
+            "nome": "RobotUser_1759418710_6682",
+            "email": "RobotUser_1759418710_6682@example.com",
+            "password": "Pass_6682",
+            "administrador": "true",
+            "_id": "aXbAsNHUD7H6h9pZ"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+4@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "aY7ZnhAZ0I0FWMsv"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "SfTFqX@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "adCVM7MMLSp67rjJ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "idBaDx@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "akSMvp0z0gr8ByzM"
+        },
+        {
+            "nome": "Camila de Sousa",
+            "email": "camila.oliveira@inmetrics.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "bFQnW7Uv3dyMMJ4Y"
+        },
+        {
+            "nome": "Maria Eduarda Pires",
+            "email": "marcelacasa-grande@example.org",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "bf32zBr1gmvHTgPt"
+        },
+        {
+            "nome": "Usuario Teste 1759416839",
+            "email": "teste1759416839@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "bhSTJQLxcInYrfd2"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "yoclkB@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bxiLWfempLobZCRW"
+        },
+        {
+            "nome": "A",
+            "email": "teste0980@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "cPkSAx1gySVgE2M3"
+        },
+        {
+            "nome": "Leigh Jerde",
+            "email": "niko.morar0@cypress.com",
+            "password": "aiQGbbM7MA3m",
+            "administrador": "true",
+            "_id": "cRmuSjvjmsYHNJxU"
+        },
+        {
+            "nome": "RobotUser_1759418710_4692",
+            "email": "RobotUser_1759418710_4692@example.com",
+            "password": "Pass_4692",
+            "administrador": "true",
+            "_id": "chn0vwcDj6qlRLc2"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "MJulMD@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "csWWddLjYVYJsaE0"
+        },
+        {
+            "nome": "Leandro Leão",
+            "email": "silvamarcos-vinicius@example.net",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "d0bTEwg31YmtxSG9"
+        },
+        {
+            "nome": "User_498853",
+            "email": "user_498853@example.com",
+            "password": "Pass_498853",
+            "administrador": "true",
+            "_id": "d0pi0XbrbQSd5vNJ"
+        },
+        {
+            "nome": "HCdtSSSjogYlYJYJNyxCbQvbFqWdeFXlIvcPLQExddaVcWGikteDukQMuijZROswoDubjhVsLXFrnOBLcOyzEsRLstAwIxRVOEEGagaCiZMQQraavURmgHQisSwqGIZXVNBRQNLsYKthHGhHSFiawSAAGwCFqOTvayirUhxLoQyUpKTTvgrtguoeDpQMwpzEZbFLYLltBBaDzsIvizROanAEDBtUEVsOgwqirZWrUzVYGHajSoYMoJKRUPxgCXgBmZIItQUBTgfCKjpbxhiuYoFFIaOuKMkarBvMKzXEgMEN",
+            "email": "teste3235@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "d31hginiYjlmLpsc"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0943@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "dMcKRASPMADeTSf4"
+        },
+        {
+            "nome": "Usuario Teste 1759419900",
+            "email": "teste1759419900@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "dqECjvp1r1I53GIJ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrannm@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "dwHgiqtoKMrkiUqh"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "xzgb@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "dzdI36EMS4nYuZ5Z"
+        },
+        {
+            "nome": "Many da Lume",
+            "email": "many@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "e5ZLwbgdJsBI1Gg1"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "yMEFKq@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "e7R3U1IvrvShv1MV"
+        },
+        {
+            "nome": "User_852589",
+            "email": "user_852589@example.com",
+            "password": "Pass_852589",
+            "administrador": "true",
+            "_id": "eCKpiAsLFamWuAA7"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759434559833@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "eL5pMK8c20AysTXK"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioabrava@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "eSDcpdDGRnBh5ujK"
+        },
+        {
+            "nome": "RobotUser_1759418395_3560",
+            "email": "RobotUser_1759418395_3560@example.com",
+            "password": "Pass_3560",
+            "administrador": "true",
+            "_id": "eSeZtqVXAaJGg1zH"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "aOXjVg@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "eShgfCDambCsHUGl"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste1373@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "eTNSoJ7J6GR171a2"
+        },
+        {
+            "nome": "Usuario irqow",
+            "email": "usuarioirqow@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "eU8HEQrlolA0q80P"
+        },
+        {
+            "nome": "RobotUser_1759418530_5038",
+            "email": "RobotUser_1759418530_5038@example.com",
+            "password": "Pass_5038",
+            "administrador": "true",
+            "_id": "eX8M9xf8Y56iHLdB"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "axsh@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "ed9bWPGZLo50tm1X"
+        },
+        {
+            "nome": "Karate Oss",
+            "email": "karate@qa.com.br",
+            "password": "123456789",
+            "administrador": "true",
+            "_id": "er6Ydaj2uZQpIdHH"
+        },
+        {
+            "nome": "Thales Lopes",
+            "email": "vitoria81@example.net",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "etAHBhnMfqJxmxYZ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0411@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "fTPndyorudiwpdGu"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario1036@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "fZ9I2SOyx0JFQalU"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3038@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "fgXMQIDxTbADudu8"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5455@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "fh123mRG4qpZMp7Z"
+        },
+        {
+            "nome": "User_702674",
+            "email": "user_702674@example.com",
+            "password": "Pass_702674",
+            "administrador": "true",
+            "_id": "fm4AAGqKB2pjLReW"
+        },
+        {
+            "nome": "ZWEdPEMBLJwetYoZxzfaENWJEpKDXWrlOSjgPeUvlEfgpcmzmqitEizczPWnOCEKEArYDicyoRpzLRxSYQAmVZTJWtSYulxlDbxIrRJxggVWxcwydtRGMmGxNArMwjiDifgfYSNouqTCPOEzVSwHSwYDcqrMxxzRijhYeOzzzFcALOqjICNsavUoiWRzlIiplqKhyGezGHQmFSoOPlxguWLUFgRrmbpLPPUWjWECBQGODlROiAcElMdsRaMpHLymCNIPxvqdkoahrqLzzibTMBpLMLkaMFtQviclGniErOoE",
+            "email": "teste7572@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "fqm3FQdIBiRmjXD9"
+        },
+        {
+            "nome": "User_931962",
+            "email": "user_931962@example.com",
+            "password": "Pass_931962",
+            "administrador": "true",
+            "_id": "fvFMgOY1SE0qsJwA"
+        },
+        {
+            "nome": "TesteqGpGhvXJYF",
+            "email": "JrhHHTfu@testes.com",
+            "password": "Test1@65977",
+            "administrador": "true",
+            "_id": "fvlRYGVMeP8dD90U"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4895@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "fyqtttn8HYhJ3aT6"
+        },
+        {
+            "nome": "Fulaninho Silveira",
+            "email": "FulaninhoSilveira@gmail.com",
+            "password": "teste258",
+            "administrador": "true",
+            "_id": "gB45ZvSxEarBwaNQ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0023@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "gDeQZn7CoxHfVKTH"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3363@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "gMwUK2W0IAP6gNO8"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3576@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "gVvrMiPJLGrjuJha"
+        },
+        {
+            "nome": "aiBHnwIxxGSuhicGrYdIyEeMDGmbnmAKuKJiPIDgaHfSsHVbWCrHvSHmXLQodWvwsTEaqbCJzTaCDbZWkvaPjUWRCZbKKlJYeJhMwuyVrjgkcBEWSiDpVPKdnvfVuMOgoAhzzGsIhNtnXohmBJsVXkAbLKBCNRUDFYTrOMzImBZaVjoZdCWvJIUWMtSJuUuXCuLfxbGIWSVsArYwizBjLTOgcUkSsTnOGaMkPZEsLZdEMHmOYrNumtmsCCWEKwBZfmhALsOzPhVkLOaUQybnSWNjTIeyTBcPcQMKIphxmnVp",
+            "email": "iLIpuQ@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gdh8ESZeLxeVjMsl"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "GDjplf@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "ghXJDtND1wlxsdL4"
+        },
+        {
+            "nome": "Fulano ALTERADO j9kf",
+            "email": "usuarioncfdv@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gpt0MZdCt8nyEeoB"
+        },
+        {
+            "nome": "Cypress Admin 1759407530605",
+            "email": "cypress_admin_1759407530605@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gwGrthdaGuDMDyNU"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4332@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "hBUBneUHnDzqZv6q"
+        },
+        {
+            "nome": "User_253719",
+            "email": "user_253719@example.com",
+            "password": "Pass_253719",
+            "administrador": "true",
+            "_id": "hMjsvPlm4dUWbIwp"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario2371@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "hQn0X122ck13os4k"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "udnw@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "hT4eVzcMDX3T4ExK"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "kqmz@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "hVUNxJTOOwFLArqT"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste6768@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "hvcBLkPw0kWUHZo2"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+26@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "i7mJPQbVRTnz1FPd"
+        },
+        {
+            "nome": "RobotUser_1759418471_2831",
+            "email": "RobotUser_1759418471_2831@example.com",
+            "password": "Pass_2831",
+            "administrador": "true",
+            "_id": "iJtRYzcyhyF0m5U9"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4481@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "iTLHRYoA3w5bVFnB"
+        },
+        {
+            "nome": "Francisco Vasconcelos",
+            "email": "joao-lucas07@example.net",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "itIuabkU0L5oTEop"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste8419@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "j7SSUhh8wcrBBXgX"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste1577@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "jHSnEPl0IJuMvo2k"
+        },
+        {
+            "nome": "User_276743",
+            "email": "user_276743@example.com",
+            "password": "Pass_276743",
+            "administrador": "true",
+            "_id": "jMa45y1F5fWjuc4r"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "jtV9JoCwBrK2VGfs"
+        },
+        {
+            "nome": "User_731608",
+            "email": "user_731608@example.com",
+            "password": "Pass_731608",
+            "administrador": "true",
+            "_id": "juT1kjg5Uhy9teem"
+        },
+        {
+            "nome": "Kaique Teste",
+            "email": "kaique.teste1759432869689@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "k7XCRtSRebSxvVGh"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste2936@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "kAaqFPKB1YCy9yOj"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "vjaouA@hotmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kCTFoeJbxkeNIfEi"
+        },
+        {
+            "nome": "xDKoIWDsdeQoBrHHItxyHmhIIuFQhYuKEGCuVyIlwHEvFRzLfNliJnqrKQNYQPWFyUIsbHRyZkqxIuPlxLFWfqPotcCCzDdfvebetkCuiTCwtqRvUjjLquOvVfIzDruHATQrxPzZAEWxjpzhFINusdVXjFpZzYfhhMsjRiKVpzGMPhwUBNGrkmKmHqDxTmbBAWYcGTdMNFfduGycYGlldKowyDQTSxBcpRWjseDJSQujQbsDSmaKwgXGbwKGmilUZyZoaSWdHgddpLYQAWfTFHgESgZNkQKWsUxxANdzNgNc",
+            "email": "xLxdYv@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kJMWlKlGABADNXQY"
+        },
+        {
+            "nome": "Nome Atualizado",
+            "email": "teste0592@teste.com",
+            "password": "54321",
+            "administrador": "true",
+            "_id": "kK2ZDmhtm3HCrTBv"
+        },
+        {
+            "nome": "Usuario sjf66",
+            "email": "usuariosjf66@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kO3AuLugAA6V9BuN"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+15@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "kRbQH8uSkOcmhmkS"
+        },
+        {
+            "nome": "Lyle Hoppe",
+            "email": "roma_aufderhar@cypress.com",
+            "password": "yPU6812Y40tM",
+            "administrador": "true",
+            "_id": "kzJrZ1PIVDAepZfK"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pepa@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "l9BTv9je9Fv99IK8"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759436033280@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "lVKzjIhZcJgA42DY"
+        },
+        {
+            "nome": "Jamie Cruickshank-O'Hara",
+            "email": "brando_hegmann25@cypress.com",
+            "password": "eZBY4JRCrUK4",
+            "administrador": "true",
+            "_id": "lWGFVKw0vrFqN6T7"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5557@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "lWhsRir4ks3kLerM"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandro.risch@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "lY5BrAakhY4c3JQE"
+        },
+        {
+            "nome": "Fulano ALTERADO zzwx",
+            "email": "usuarioapawc@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "lZIpfEN9GjROjilo"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "ydsl@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "lhzEM8752tnXXXkk"
+        },
+        {
+            "nome": "Diogo Machado",
+            "email": "rhavicarvalho@example.net",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "m1LhueyVaddLZxYx"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759434057578@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "m1eiiuLEfBHbeUiN"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "pLjtoj@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "m2RsZNtuMX8l1HTE"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilvioa@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "mGh2f8eDKk6GVS3G"
+        },
+        {
+            "nome": "Usuario ew5b8",
+            "email": "usuarioew5b8@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mKEdoPckfZzIKL2i"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste9670@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "mP5wNghn2ag0PKbQ"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759435423234@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mfYKstbWIXHhexv1"
+        },
+        {
+            "nome": "FMXAGMgOPaMYEncSvvPnZmhNZoGJickpFSJERncVtWnwrWcbrTEvgSvifOqSIHqUCNeBnKSeKrgqAQBDIxvhPnGdNJIsDzUvuJxHPyEHfImJbCWCMOolhyGtsAHfgjBiNNUndgpLRApDQMVkgqnlcJMLOYITbrTxmFZQemssYEXAsIKOcdgxASoWsSlAtGYMbXxqFYXdTENqkPscNqoTNRwxsJOgzDbkyqdYXypUCEBRitDyxfbbvWkNoJNcxIFfalyZUpeZlUghGjKSfQVVyLCmrLkAAeWBCMRdeLqsbBzs",
+            "email": "UwhzPd@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mg9XfacaXCILiMVB"
+        },
+        {
+            "nome": "Yuri da Rocha",
+            "email": "saeduardo@example.org",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "mh8PhmHxtQm0DoF6"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "NKOAaI@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mjPOHalMUP8A9yvw"
+        },
+        {
+            "nome": "Fulano ALTERADO mzb9",
+            "email": "usuariogrm4m@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mqYcVtkqctj1Hnad"
+        },
+        {
+            "nome": "Usuario 9rx0a",
+            "email": "usuario9rx0a@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ms0XdG2MqZZYgcRk"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759436018344@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mxM0hGFqcXtx8ey3"
+        },
+        {
+            "nome": "Ísis Silva",
+            "email": "maria-sophia27@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "n1agnvCDA8tD6hva"
+        },
+        {
+            "nome": "Cypress Admin 1759407526122",
+            "email": "cypress_admin_1759407526122@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "nadHtoB69pUP7Oia"
+        },
+        {
+            "nome": "Cypress Admin 1759407522958",
+            "email": "cypress_admin_1759407522958@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "o1sTEgvUx2mWC2OP"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.teste1759436447131@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "oETBaYmUvDP64E7f"
+        },
+        {
+            "nome": "Usuário Admin",
+            "email": "usuario.admin.0593@gmail.com",
+            "password": "teste1234",
+            "administrador": "true",
+            "_id": "oGKnEj0wnJ1sISFJ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3271@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "oiR0sapLv1vXEr4U"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "sfet@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "oj4QyweYv4aTxvbR"
+        },
+        {
+            "nome": "Primeiro Usuário",
+            "email": "teste7218@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "p04ToxIOmkUliEfM"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ExQBqI@email.com",
+            "password": "12345678901234567890",
+            "administrador": "true",
+            "_id": "pK0MtcVMU3itm2ZI"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste3992@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "pQAYQmdDxKKXbGjU"
+        },
+        {
+            "nome": "Usuario de Teste",
+            "email": "fulanosilva@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "pQX0ZNEG9DnPLcWo"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "MEAkPL@email.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "pV80ayCXlK8FEytG"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436611839@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "pfrD9L7pkOcJxAdi"
+        },
+        {
+            "nome": "TesteuMJyCvTSSf",
+            "email": "dpaKASde@testes.com",
+            "password": "Test1@26125",
+            "administrador": "true",
+            "_id": "q0Uue4IeyWWXDJfX"
+        },
+        {
+            "nome": "Cypress Admin 1759407526728",
+            "email": "cypress_admin_1759407526728@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qEt6YBFWmVsIqd0n"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltraraaaam@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "qex9CGbWIjQG4MBe"
+        },
+        {
+            "nome": "Eduardo Lopes",
+            "email": "bernardoda-luz@example.org",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "qh76eLRx2egq59lU"
+        },
+        {
+            "nome": "Teste API",
+            "email": "user79316@test.com",
+            "password": "Password123!",
+            "administrador": "true",
+            "_id": "qmZRwzSfhHI4H9WH"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "usuario6749@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "qvs2604pDjIWHsC0"
+        },
+        {
+            "nome": "QA Teste Dois",
+            "email": "teste2@qa.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "rFNFyEDPriegHrZf"
+        },
+        {
+            "nome": "User_833000",
+            "email": "user_833000@example.com",
+            "password": "Pass_833000",
+            "administrador": "true",
+            "_id": "rUMuiQ6cYoYQRTWY"
+        },
+        {
+            "nome": "fSIgKTkGkYFUUtQRcErvJtzIJhOXYtJydWKblYoFsNXCHLbRwUVqbMbXPPMadEmllNXQaWdZBRybsLFKLHpkXSLrNpTivqfndnyTlmnGgcqAMtprXzQpQOqHqPhONFNDxJZVPexGXUxccRLvjclwdqmjgqTriZYHvWQDCwZUDGmvvhudSzAMbQktOZXDFHKuzEKvxtJwdEWbsZvopAEXSsLawbjapdSuaSWJhXlTqLaJIEFdCabjNQPixJNIEKFYXYpmBODmJaYFsxxODlOGNtGHHcDPrXvJDaboNlDQmwSW",
+            "email": "zilRIY@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rWGUycf1Q3FohqF3"
+        },
+        {
+            "nome": "User_806948",
+            "email": "user_806948@example.com",
+            "password": "Pass_806948",
+            "administrador": "true",
+            "_id": "rtYGbdvWsDj9pL3y"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste5585@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "sDxsIBM0mnX1efgO"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436551565@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "sFuJRIdnkE3EzXMe"
+        },
+        {
+            "nome": "User_923660",
+            "email": "user_923660@example.com",
+            "password": "Pass_923660",
+            "administrador": "true",
+            "_id": "sd8nAoE2KKxB3LXw"
+        },
+        {
+            "nome": "Usuario nodvw",
+            "email": "usuarionodvw@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "smg8CAfPR5x20omT"
+        },
+        {
+            "nome": "User_351372",
+            "email": "user_351372@example.com",
+            "password": "Pass_351372",
+            "administrador": "true",
+            "_id": "ssr3Ij4vc3OI85nX"
+        },
+        {
+            "nome": "Usuario Tres - Atualizado",
+            "email": "user32@example.com",
+            "password": "novaSenha123",
+            "administrador": "true",
+            "_id": "svI0JUn5oFTxzGlx"
+        },
+        {
+            "nome": "Gwendolyn Howell",
+            "email": "eliseo_auer51@cypress.com",
+            "password": "MHCgG4XaiaqH",
+            "administrador": "true",
+            "_id": "t9uWx5sqyLufwC6j"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+2@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "tIYijorfSm730IKO"
+        },
+        {
+            "nome": "Vincenza9",
+            "email": "Joshua_Luettgen72@gmail.com",
+            "password": "213907934",
+            "administrador": "true",
+            "_id": "tgmarappMhVGsZ7W"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "d0vl8nsv@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "tlgUv0b8avFEa6Wf"
+        },
+        {
+            "nome": "Cypress Admin 1759407530307",
+            "email": "cypress_admin_1759407530307@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tteeUdPxMTwm6rfa"
+        },
+        {
+            "nome": "Cypress Admin 1759407522019",
+            "email": "cypress_admin_1759407522019@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "twx5vlSO7OZ3z737"
+        },
+        {
+            "nome": "Pasquale_Marquardt",
+            "email": "Florian.Purdy45@gmail.com",
+            "password": "816183999",
+            "administrador": "true",
+            "_id": "uBwvp7f9njHIGsin"
+        },
+        {
+            "nome": "Thiago da Conceição",
+            "email": "ana-ceciliacosta@example.net",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "uHcFuadZnsrHUHvK"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+8@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "uPQPdqwJPpk47oHa"
+        },
+        {
+            "nome": "Barbara Hilpert",
+            "email": "kathlyn.daugherty-considine1@cypress.com",
+            "password": "oKd8wF5eH15t",
+            "administrador": "true",
+            "_id": "uTeqQnRVQLsZcRMB"
+        },
+        {
+            "nome": "RobotTestUser_1759418480_3533",
+            "email": "test_1759418480@example.com",
+            "password": "senha123",
+            "administrador": "true",
+            "_id": "uUWUEb4xGuM0uiYg"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste8062@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "ukkKC8wgFJlO2FyG"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+18@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "unkhUjLhnuqFd91C"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+17@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "upYx2AnS2XMiEmRI"
+        },
+        {
+            "nome": "QA Teste",
+            "email": "kaique.0102551759436287672@gmail.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "v7FhSu92s6EkqSnx"
+        },
+        {
+            "nome": "User_474803",
+            "email": "user_474803@example.com",
+            "password": "Pass_474803",
+            "administrador": "true",
+            "_id": "vDEXgL3hHl4dfeCD"
+        },
+        {
+            "nome": "Cypress Admin 1759407525797",
+            "email": "cypress_admin_1759407525797@cypress.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vdVzFklsuOYJH3yH"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "1zivqw20@teste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "vfzFAQ5i7GFEkA7M"
+        },
+        {
+            "nome": "Erick Ribeiro",
+            "email": "diasmaria-julia@example.org",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "vrSIX44eZEn38pVn"
+        },
+        {
+            "nome": "Usuário Login API",
+            "email": "usuario.login.api@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vxmf9Oe9XAtJeYnU"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "wdzg@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "w6r5VFWnG4AgMsuV"
+        },
+        {
+            "nome": "Leandro",
+            "email": "leandrorisch4+16@gmail.com",
+            "password": "lsrgit@2025",
+            "administrador": "true",
+            "_id": "wRosBXnZ734DM4Vi"
+        },
+        {
+            "nome": "Elizabeth Bogan",
+            "email": "zoie38@cypress.com",
+            "password": "6nJkS_shwtc4",
+            "administrador": "true",
+            "_id": "ww1kVHS6ZyhjYRiW"
+        },
+        {
+            "nome": "Jeffery Walter",
+            "email": "jefferywalter@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "x3XnOZGwpNbUZg6A"
+        },
+        {
+            "nome": "QA Teste EDITADO",
+            "email": "kaique.0102551759436653485@teste.com",
+            "password": "654321",
+            "administrador": "true",
+            "_id": "x9ss2IDaYGebaHQg"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "ukWvBJ@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xVY7Aqnx55LLFbe7"
+        },
+        {
+            "nome": "Usuario 3majw",
+            "email": "usuario3majw@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xXBgeQJEd7UnJxZ4"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "dvuz@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "xaVvdzfE9j2e2bbq"
+        },
+        {
+            "nome": "Usuario Teste",
+            "email": "jpsk@emailteste.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "xzRMjryOBL3xGGTG"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste8774@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "yA5TD4tI7GTgv3ya"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste0518@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "yGi2T1p19B8CQJDa"
+        },
+        {
+            "nome": "Usuario ixvdc",
+            "email": "usuarioixvdc@qa.com.br",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "yaMbIZFOLiiq2aYb"
+        },
+        {
+            "nome": "Usuario Teste 1759420342",
+            "email": "teste1759420342@qa.com",
+            "password": "teste123",
+            "administrador": "true",
+            "_id": "yvGDVnswoOGSQhjQ"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "teste4381@teste.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "zcQsVarGeMyXjbdd"
+        },
+        {
+            "nome": "User_381632",
+            "email": "user_381632@example.com",
+            "password": "Pass_381632",
+            "administrador": "true",
+            "_id": "zmOG0A0fBPn8srXG"
+        },
+        {
+            "nome": "RobotUser_1759418710_2577",
+            "email": "RobotUser_1759418710_2577@example.com",
+            "password": "Pass_2577",
+            "administrador": "true",
+            "_id": "zpaWStx9KhWRQAYF"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "NnwNwz@email.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "zyiI1bU2zLpmjcAM"
+        }
+    ]
+}
+
+---------------------------------------------------------
+feature: classpath:examples/users/ActualizarInformacion.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.9043
+---------------------------------------------------------
+
+15:55:18.690 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 5 (4 remaining) classpath:examples/users/ActualizarInformacion.feature
+---------------------------------------------------------
+feature: classpath:examples/users/BuscarUsuarioID.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.9021
+---------------------------------------------------------
+
+15:55:18.765 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 5 (3 remaining) classpath:examples/users/BuscarUsuarioID.feature
+---------------------------------------------------------
+feature: classpath:examples/users/EliminarUsuario.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8961
+---------------------------------------------------------
+
+15:55:18.854 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 5 (2 remaining) classpath:examples/users/EliminarUsuario.feature
+---------------------------------------------------------
+feature: classpath:examples/users/ListarUsuarios.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.0676
+---------------------------------------------------------
+
+15:55:18.926 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 5 (1 remaining) classpath:examples/users/ListarUsuarios.feature
+---------------------------------------------------------
+feature: classpath:examples/users/RegistrarUsuario.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.9094
+---------------------------------------------------------
+
+15:55:18.966 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 5 (0 remaining) classpath:examples/users/RegistrarUsuario.feature
+Karate version: 1.5.0
+======================================================
+elapsed:   3.62 | threads:    5 | thread time: 4.68 
+features:     5 | skipped:    0 | efficiency: 0.26
+scenarios:    5 | passed:     2 | failed: 3
+======================================================
+>>> failed features:
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios/0uxuPY0cbmQhpEz1, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/ActualizarInformacion.feature:11
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '0uxuPY0cbmQhpEz1'
+
+classpath:examples/users/BuscarUsuarioID.feature:12
+status code was: 400, expected: 201, response time in milliseconds: 659, url: https://serverest.dev/usuarios, response: 
+{
+    "message": "Este email já está sendo usado"
+}
+classpath:examples/users/RegistrarUsuario.feature:12
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///C:/Users/Philp/Desktop/Reto%20API/RetoApi/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
